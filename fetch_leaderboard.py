@@ -28,7 +28,7 @@ from pathlib import Path
 #   - Right-click it -> Copy -> Copy link address, and paste it below.
 #     (Also right-click -> Copy -> Copy response, so you can check the shape.)
 # ---------------------------------------------------------------------------
-API_URL = "https://optichallenge.com/api/leaderboard"  # <-- REPLACE with the real endpoint
+API_URL = "https://d32m8h9cownzsg.cloudfront.net/public/leaderboard_group/latest.json?_=1782900656531"  # <-- REPLACE with the real endpoint
 
 # Some APIs need a specific header (e.g. Accept: application/json) or reject
 # requests without a browser-like User-Agent. Adjust if you get 403 / HTML back.

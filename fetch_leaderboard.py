@@ -32,7 +32,7 @@ from pathlib import Path
 #   >>> CONFIRM THIS EXACT URL <<<  (the middle of the path was hidden by the
 #   context menu in your screenshot). Paste the real one here if it differs.
 # ---------------------------------------------------------------------------
-API_URL = "https://d32m8h9cownzsg.cloudfront.net/public/leaderboard/leaderboard_group/latest.json"
+API_URL = "https://d32m8h9cownzsg.cloudfront.net/public/leaderboard_group/latest.json?_=1782902059573"
 
 HEADERS = {
     "Accept": "application/json",

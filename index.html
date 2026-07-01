@@ -1,0 +1,489 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OGC 2026 · Rank Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1E2D; --surface:#102A3C; --surface-2:#15364B; --hairline:#1E4459;
+    --fg:#EAF1F5; --muted:#89A6B7; --faint:#5E7E90;
+    --gold:#F0B45A; --up:#56D3B4; --down:#F3785E;
+    --sans:"Space Grotesk",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:
+      radial-gradient(1200px 600px at 80% -10%, #123246 0%, transparent 60%),
+      var(--ink);
+    color:var(--fg); font-family:var(--sans); line-height:1.45;
+    -webkit-font-smoothing:antialiased; padding:28px 20px 64px;
+  }
+  .wrap{max-width:1080px; margin:0 auto}
+
+  /* ---- header ---- */
+  .eyebrow{
+    font:500 12px/1 var(--mono); letter-spacing:.22em; text-transform:uppercase;
+    color:var(--faint); display:flex; gap:10px; align-items:center;
+  }
+  .eyebrow .dot{width:5px;height:5px;border-radius:50%;background:var(--gold)}
+  .head{display:flex; justify-content:space-between; align-items:flex-end; gap:20px; flex-wrap:wrap; margin:10px 0 22px}
+  h1{font:700 clamp(30px,5vw,46px)/1.02 var(--sans); letter-spacing:-.02em; margin:8px 0 0}
+  h1 em{font-style:normal; color:var(--gold)}
+  .sub{color:var(--muted); font-size:14.5px; margin-top:6px; max-width:52ch}
+  .meta{text-align:right; font:400 12.5px/1.5 var(--mono); color:var(--muted); white-space:nowrap}
+  .badge{display:inline-flex; align-items:center; gap:7px; padding:5px 10px; border:1px solid var(--hairline);
+    border-radius:999px; font:500 11px/1 var(--mono); letter-spacing:.12em; text-transform:uppercase}
+  .badge .led{width:7px;height:7px;border-radius:50%}
+  .badge.live{color:var(--up)} .badge.live .led{background:var(--up); box-shadow:0 0 8px var(--up)}
+  .badge.sample{color:var(--gold)} .badge.sample .led{background:var(--gold)}
+
+  /* ---- movers ---- */
+  .movers{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px}
+  .mcard{background:var(--surface); border:1px solid var(--hairline); border-radius:14px; padding:14px 16px}
+  .mcard h3{margin:0 0 10px; font:500 11px/1 var(--mono); letter-spacing:.18em; text-transform:uppercase; color:var(--muted); display:flex; align-items:center; gap:8px}
+  .mrow{display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:5px 0; font-size:14px}
+  .mrow + .mrow{border-top:1px dashed var(--hairline)}
+  .mrow .nm{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .mrow .mv{font:500 13px/1 var(--mono); flex:none}
+  .up .mv,.up h3 .car{color:var(--up)} .down .mv,.down h3 .car{color:var(--down)}
+  .mrow .path{font:400 11px/1 var(--mono); color:var(--faint); flex:none}
+
+  /* ---- chart panel ---- */
+  .panel{background:var(--surface); border:1px solid var(--hairline); border-radius:16px; padding:16px 16px 6px; margin-bottom:16px}
+  .controls{display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; margin:2px 4px 12px}
+  .seg{display:inline-flex; border:1px solid var(--hairline); border-radius:10px; overflow:hidden}
+  .seg button{appearance:none; background:transparent; border:0; color:var(--muted); font:500 12px/1 var(--mono);
+    padding:8px 12px; cursor:pointer; letter-spacing:.04em}
+  .seg button+button{border-left:1px solid var(--hairline)}
+  .seg button[aria-pressed="true"]{background:var(--surface-2); color:var(--fg)}
+  .lbl{font:500 11px/1 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--faint)}
+  input[type=search]{background:var(--ink); border:1px solid var(--hairline); color:var(--fg);
+    font:400 13px/1 var(--mono); padding:8px 11px; border-radius:10px; min-width:180px; flex:1}
+  input[type=search]::placeholder{color:var(--faint)}
+  input:focus-visible,.seg button:focus-visible{outline:2px solid var(--gold); outline-offset:2px}
+
+  .chart-scroll{overflow-x:auto}
+  svg.bump{width:100%; min-width:640px; height:auto; display:block; font-family:var(--mono)}
+  .grid line{stroke:var(--hairline); stroke-width:1}
+  .grid text{fill:var(--faint); font-size:10px}
+  .axis-cap{fill:var(--faint); font-size:10px; letter-spacing:.1em; text-transform:uppercase}
+  .team path.line{fill:none; stroke-width:2.4; stroke-linejoin:round; stroke-linecap:round;
+    transition:opacity .18s, stroke-width .18s}
+  .team path.hit{fill:none; stroke:transparent; stroke-width:16}
+  .team circle{transition:opacity .18s}
+  .team .endlbl{font-size:11.5px; font-weight:500; dominant-baseline:middle}
+  .team.lead path.line{stroke-width:3.2}
+  /* focus / search dimming */
+  .bump.dimming .team:not(.focus){opacity:.10}
+  .bump.searching .team:not(.match){opacity:.10}
+  .team.focus path.line,.team.match path.line{stroke-width:3.4}
+
+  .empty{padding:40px 12px; text-align:center; color:var(--muted); font-size:14px}
+
+  /* ---- legend / standings ---- */
+  .grid2{display:grid; grid-template-columns:1fr; gap:16px}
+  .card{background:var(--surface); border:1px solid var(--hairline); border-radius:16px; padding:6px 4px}
+  .card h2{font:500 11px/1 var(--mono); letter-spacing:.18em; text-transform:uppercase; color:var(--muted); margin:12px 16px 6px}
+  table{width:100%; border-collapse:collapse; font-size:14px}
+  th,td{text-align:left; padding:9px 16px}
+  th{font:500 10.5px/1 var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--faint); border-bottom:1px solid var(--hairline)}
+  tbody tr{cursor:default}
+  tbody tr+tr td{border-top:1px solid #163243}
+  td.rk{font:500 14px/1 var(--mono); color:var(--muted); width:1%; white-space:nowrap}
+  tr.lead td.rk{color:var(--gold)}
+  .swatch{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:9px; vertical-align:middle}
+  td.sc{font:400 13px/1 var(--mono); color:var(--muted); text-align:right; white-space:nowrap}
+  td.dl{font:500 12.5px/1 var(--mono); text-align:right; white-space:nowrap; width:1%}
+  .d-up{color:var(--up)} .d-down{color:var(--down)} .d-new{color:var(--gold)} .d-same{color:var(--faint)}
+  tbody tr.hot td{background:rgba(240,180,90,.06)}
+
+  .foot{color:var(--faint); font-size:12px; margin-top:22px; text-align:center; font-family:var(--mono)}
+  .foot a{color:var(--muted)}
+
+  @media (max-width:640px){
+    .movers{grid-template-columns:1fr}
+    .meta{text-align:left}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .team path.line{transition:none}
+    .draw{stroke-dasharray:none!important; stroke-dashoffset:0!important; animation:none!important}
+  }
+  @keyframes draw{to{stroke-dashoffset:0}}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow"><span class="dot"></span> OGC 2026 · Preliminary Round · Grand Shipyard Puzzle</div>
+
+  <div class="head">
+    <div>
+      <h1>Rank <em>Tracker</em></h1>
+      <div class="sub">Every hour a snapshot of the leaderboard is recorded. The lines below trace how each team climbs, slips, and overtakes over time.</div>
+    </div>
+    <div class="meta" id="meta">
+      <span class="badge sample" id="srcBadge"><span class="led"></span> loading</span><br>
+      <span id="updated">—</span><br>
+      <span id="count">—</span>
+    </div>
+  </div>
+
+  <div class="movers" id="movers"></div>
+
+  <div class="panel">
+    <div class="controls">
+      <span class="lbl">Range</span>
+      <span class="seg" id="rangeSeg" role="group" aria-label="Time range">
+        <button data-range="24" aria-pressed="false">24h</button>
+        <button data-range="168" aria-pressed="false">7d</button>
+        <button data-range="all" aria-pressed="true">All</button>
+      </span>
+      <span class="lbl">Show</span>
+      <span class="seg" id="topSeg" role="group" aria-label="How many teams">
+        <button data-top="10" aria-pressed="false">Top 10</button>
+        <button data-top="15" aria-pressed="true">Top 15</button>
+        <button data-top="25" aria-pressed="false">Top 25</button>
+        <button data-top="all" aria-pressed="false">All</button>
+      </span>
+      <input type="search" id="search" placeholder="pin a team…" aria-label="Search and pin a team">
+    </div>
+    <div class="chart-scroll">
+      <svg class="bump" id="bump" viewBox="0 0 1000 540" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Team rank over time"></svg>
+    </div>
+    <div class="empty" id="chartEmpty" hidden>Not enough snapshots yet — the chart fills in as hourly records accumulate.</div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Current standings <span id="asof" style="color:var(--faint)"></span></h2>
+      <table>
+        <thead><tr><th>#</th><th>Team</th><th style="text-align:right">Score</th><th style="text-align:right">Δ 1h</th></tr></thead>
+        <tbody id="standings"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="foot">
+    Data source: <a id="srcLink" href="https://optichallenge.com/leaderboard">optichallenge.com/leaderboard</a>
+    · snapshots stored in <code>history.json</code>
+  </div>
+</div>
+
+<script>
+// ---------------------------------------------------------------------------
+// Load data: prefer the real history.json produced by the hourly job.
+// If it isn't there yet (fresh repo / local preview), fall back to sample data
+// so you can see how the page will look.
+// ---------------------------------------------------------------------------
+const PALETTE = ["#F0B45A","#56D3B4","#7CB8FF","#F3785E","#C89BFF","#8FE388",
+  "#FF9FD0","#5FD0E0","#E0C36B","#B0A6FF","#79D9A6","#F2A65A","#9CC4FF","#EA8AA6"];
+let RAW = null, IS_SAMPLE = false;
+let RANGE = "all", TOPN = 15, QUERY = "";
+
+const $ = s => document.querySelector(s);
+const teamColor = (() => {
+  const cache = {};
+  return name => {
+    if (cache[name] != null) return cache[name];
+    let h = 0; for (const c of name) h = (h*31 + c.charCodeAt(0)) >>> 0;
+    return cache[name] = PALETTE[h % PALETTE.length];
+  };
+})();
+
+async function boot(){
+  try{
+    const res = await fetch("./history.json", {cache:"no-store"});
+    if(!res.ok) throw new Error("no history");
+    const j = await res.json();
+    if(!j.snapshots || !j.snapshots.length) throw new Error("empty");
+    RAW = j;
+  }catch(e){
+    RAW = sampleData(); IS_SAMPLE = true;
+  }
+  // normalise + sort
+  RAW.snapshots.forEach(s => s._t = new Date(s.t));
+  RAW.snapshots.sort((a,b)=>a._t-b._t);
+  setupControls();
+  render();
+}
+
+// ---- controls ----
+function setupControls(){
+  $("#rangeSeg").addEventListener("click", e=>{
+    const b=e.target.closest("button"); if(!b) return;
+    RANGE=b.dataset.range; pressGroup("#rangeSeg", b); render();
+  });
+  $("#topSeg").addEventListener("click", e=>{
+    const b=e.target.closest("button"); if(!b) return;
+    TOPN = b.dataset.top==="all" ? Infinity : +b.dataset.top; pressGroup("#topSeg", b); render();
+  });
+  $("#search").addEventListener("input", e=>{ QUERY=e.target.value.trim().toLowerCase(); render(); });
+}
+function pressGroup(sel,btn){ $(sel).querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===btn)); }
+
+// ---- selection helpers ----
+function filteredSnaps(){
+  const snaps = RAW.snapshots;
+  if(RANGE==="all" || snaps.length<2) return snaps;
+  const latest = snaps[snaps.length-1]._t.getTime();
+  const cutoff = latest - (+RANGE)*3600*1000;
+  const f = snaps.filter(s=>s._t.getTime() >= cutoff);
+  return f.length>=2 ? f : snaps.slice(-2);
+}
+function seriesFor(snaps){
+  // team -> [{t, rank, score}]
+  const m = new Map();
+  snaps.forEach(s => s.standings.forEach(r=>{
+    if(!m.has(r.team)) m.set(r.team, []);
+    m.get(r.team).push({t:s._t.getTime(), rank:r.rank, score:r.score});
+  }));
+  return m;
+}
+
+// ---------------------------------------------------------------------------
+// Main render
+// ---------------------------------------------------------------------------
+function render(){
+  updateMeta();
+  const snaps = filteredSnaps();
+  const last = RAW.snapshots[RAW.snapshots.length-1];
+  const prevAll = RAW.snapshots.length>1 ? RAW.snapshots[RAW.snapshots.length-2] : null;
+
+  renderMovers(snaps);
+  renderStandings(last, prevAll);
+
+  const enough = snaps.length>=2;
+  $("#chartEmpty").hidden = enough;
+  $("#bump").style.display = enough ? "block" : "none";
+  if(enough) renderBump(snaps, last);
+}
+
+function updateMeta(){
+  const snaps = RAW.snapshots, last = snaps[snaps.length-1]._t;
+  const badge = $("#srcBadge");
+  badge.className = "badge " + (IS_SAMPLE ? "sample":"live");
+  badge.innerHTML = '<span class="led"></span> ' + (IS_SAMPLE ? "sample data" : "live");
+  $("#updated").textContent = "updated " + fmtWhen(last);
+  $("#count").textContent = snaps.length + " snapshot" + (snaps.length===1?"":"s");
+  if(RAW.source){ $("#srcLink").textContent = new URL(RAW.source).host + "…"; }
+}
+
+// ---- movers strip (compare last two snapshots in range) ----
+function renderMovers(snaps){
+  const host = $("#movers");
+  if(snaps.length<2){ host.innerHTML=""; return; }
+  const cur = snaps[snaps.length-1], prev = snaps[snaps.length-2];
+  const pmap = new Map(prev.standings.map(r=>[r.team, r.rank]));
+  const moves = [];
+  cur.standings.forEach(r=>{
+    if(pmap.has(r.team)){
+      const d = pmap.get(r.team) - r.rank;           // + = climbed
+      if(d!==0) moves.push({team:r.team, d, from:pmap.get(r.team), to:r.rank});
+    }
+  });
+  const up = moves.filter(m=>m.d>0).sort((a,b)=>b.d-a.d).slice(0,4);
+  const down = moves.filter(m=>m.d<0).sort((a,b)=>a.d-b.d).slice(0,4);
+  host.innerHTML =
+    card("Climbers","up","▲",up,  m=>`+${m.d}`) +
+    card("Fallers","down","▼",down, m=>`${m.d}`);
+
+  function card(title,cls,car,rows,fmt){
+    const body = rows.length ? rows.map(m=>`
+      <div class="mrow">
+        <span class="nm" style="color:${teamColor(m.team)}">${esc(m.team)}</span>
+        <span class="path">${m.from}→${m.to}</span>
+        <span class="mv">${fmt(m)}</span>
+      </div>`).join("") : `<div class="mrow"><span class="nm" style="color:var(--faint)">no movement this hour</span></div>`;
+    return `<div class="mcard ${cls}"><h3><span class="car">${car}</span> Top ${title}</h3>${body}</div>`;
+  }
+}
+
+// ---- current standings table ----
+function renderStandings(last, prevAll){
+  const tb = $("#standings");
+  $("#asof").textContent = "· as of " + fmtWhen(last._t);
+  const pmap = prevAll ? new Map(prevAll.standings.map(r=>[r.team, r.rank])) : null;
+  const rows = last.standings.slice(0, 100);
+  tb.innerHTML = rows.map(r=>{
+    let dl = '<span class="d-same">—</span>';
+    if(pmap){
+      if(!pmap.has(r.team)) dl = '<span class="d-new">NEW</span>';
+      else { const d = pmap.get(r.team)-r.rank;
+        dl = d>0 ? `<span class="d-up">▲ ${d}</span>` : d<0 ? `<span class="d-down">▼ ${-d}</span>` : '<span class="d-same">—</span>'; }
+    }
+    const hot = pmap && pmap.has(r.team) && Math.abs(pmap.get(r.team)-r.rank)>=3 ? " hot":"";
+    return `<tr class="${r.rank===1?'lead':''}${hot}">
+      <td class="rk">${r.rank}</td>
+      <td><span class="swatch" style="background:${teamColor(r.team)}"></span>${esc(r.team)}</td>
+      <td class="sc">${fmtScore(r.score)}</td>
+      <td class="dl">${dl}</td></tr>`;
+  }).join("");
+  if(last.standings.length>100){
+    tb.innerHTML += `<tr><td colspan="4" style="color:var(--faint);font-size:12px">…and ${last.standings.length-100} more teams</td></tr>`;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Bump chart (the signature)
+// ---------------------------------------------------------------------------
+const NS = "http://www.w3.org/2000/svg";
+function renderBump(snaps, last){
+  const svg = $("#bump");
+  while(svg.firstChild) svg.removeChild(svg.firstChild);
+
+  const W=1000, H=540, padL=44, padR=168, padT=26, padB=34;
+  const t0 = snaps[0]._t.getTime(), t1 = snaps[snaps.length-1]._t.getTime();
+  const xspan = Math.max(1, t1-t0);
+  const X = t => padL + (t - t0)/xspan * (W-padL-padR);
+
+  const series = seriesFor(snaps);
+
+  // which teams to draw: top N by latest rank, plus any search match present in range
+  const latestRank = new Map(last.standings.map(r=>[r.team, r.rank]));
+  const present = [...series.keys()].filter(t => latestRank.has(t));
+  present.sort((a,b)=> (latestRank.get(a)) - (latestRank.get(b)));
+  let shown = present.slice(0, TOPN===Infinity ? present.length : TOPN);
+  if(QUERY){
+    present.forEach(t => { if(t.toLowerCase().includes(QUERY) && !shown.includes(t)) shown.push(t); });
+  }
+
+  // y domain = worst rank among shown teams across range
+  let maxRank = 1;
+  shown.forEach(t => series.get(t).forEach(p => { if(p.rank>maxRank) maxRank=p.rank; }));
+  const Y = r => padT + (r-1)/Math.max(1,(maxRank-1)) * (H-padT-padB);
+
+  // ---- grid ----
+  const grid = el("g",{class:"grid"});
+  const rankTicks = niceTicks(1, maxRank);
+  rankTicks.forEach(r=>{
+    grid.appendChild(el("line",{x1:padL,y1:Y(r),x2:W-padR,y2:Y(r)}));
+    const tx = el("text",{x:padL-8,y:Y(r),"text-anchor":"end","dominant-baseline":"middle"});
+    tx.textContent = "#"+r; grid.appendChild(tx);
+  });
+  // vertical time ticks (a handful)
+  const tTicks = timeTicks(t0, t1, 5);
+  tTicks.forEach(tt=>{
+    grid.appendChild(el("line",{x1:X(tt),y1:padT,x2:X(tt),y2:H-padB, opacity:.5}));
+    const tx = el("text",{x:X(tt),y:H-padB+16,"text-anchor":"middle"});
+    tx.textContent = fmtTick(new Date(tt)); grid.appendChild(tx);
+  });
+  const cap = el("text",{class:"axis-cap",x:padL-8,y:padT-12,"text-anchor":"end"}); cap.textContent="rank";
+  grid.appendChild(cap);
+  svg.appendChild(grid);
+
+  const drawDots = snaps.length <= 40;
+  const reduce = matchMedia("(prefers-reduced-motion:reduce)").matches;
+
+  // ---- one <g> per team ----
+  shown.forEach((team, i) => {
+    const pts = series.get(team).filter(p=>p.t>=t0 && p.t<=t1).sort((a,b)=>a.t-b.t);
+    if(!pts.length) return;
+    const col = teamColor(team);
+    const g = el("g",{class:"team"+(latestRank.get(team)===1?" lead":""), "data-team":team});
+    const d = pts.map((p,k)=>(k?"L":"M")+X(p.t).toFixed(1)+" "+Y(p.rank).toFixed(1)).join(" ");
+
+    g.appendChild(el("path",{class:"hit", d}));
+    const line = el("path",{class:"line draw", d, stroke:col});
+    g.appendChild(line);
+
+    if(drawDots){
+      pts.forEach(p => g.appendChild(el("circle",{cx:X(p.t),cy:Y(p.rank),r:2.6,fill:col})));
+    } else {
+      const e = pts[pts.length-1];
+      g.appendChild(el("circle",{cx:X(e.t),cy:Y(e.rank),r:3.2,fill:col}));
+    }
+
+    // end label at latest position
+    const e = pts[pts.length-1];
+    const lbl = el("text",{class:"endlbl", x:X(e.t)+10, y:Y(e.rank), fill:col});
+    lbl.textContent = clip(team, 18);
+    g.appendChild(lbl);
+
+    // hover focus
+    g.addEventListener("mouseenter", ()=>focus(team, true));
+    g.addEventListener("mouseleave", ()=>focus(team, false));
+    svg.appendChild(g);
+
+    // animate line draw
+    if(!reduce){
+      const L = line.getTotalLength();
+      line.style.strokeDasharray = L; line.style.strokeDashoffset = L;
+      line.style.animation = `draw .9s ${0.03*i}s ease-out forwards`;
+    }
+  });
+
+  applySearchClass();
+
+  function focus(team,on){
+    svg.classList.toggle("dimming", on);
+    svg.querySelectorAll(".team").forEach(g=>g.classList.toggle("focus", on && g.dataset.team===team));
+  }
+  function applySearchClass(){
+    svg.classList.toggle("searching", !!QUERY);
+    svg.querySelectorAll(".team").forEach(g=>{
+      g.classList.toggle("match", !!QUERY && g.dataset.team.toLowerCase().includes(QUERY));
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
+// small helpers
+// ---------------------------------------------------------------------------
+function el(tag, attrs){ const n=document.createElementNS(NS,tag); for(const k in attrs) n.setAttribute(k, attrs[k]); return n; }
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function clip(s,n){ return s.length>n ? s.slice(0,n-1)+"…" : s; }
+function fmtScore(v){ if(v==null) return "—"; return Math.abs(v)>=1000 ? v.toLocaleString(undefined,{maximumFractionDigits:1}) : (Number.isInteger(v)? v : v.toFixed(2)); }
+function niceTicks(min,max){
+  const span=max-min; if(span<=0) return [min];
+  const step = span<=8?1 : span<=20?2 : span<=50?5 : span<=120?10 : Math.ceil(span/10/10)*10;
+  const out=[]; for(let r=min; r<=max; r+=step) out.push(r); if(out[out.length-1]!==max) out.push(max);
+  return out;
+}
+function timeTicks(t0,t1,n){
+  const out=[]; for(let i=0;i<n;i++) out.push(Math.round(t0 + (t1-t0)*i/(n-1))); return out;
+}
+function fmtTick(d){
+  const now=Date.now(); const sameDay = new Date(now).toDateString()===d.toDateString();
+  return d.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
+}
+function fmtWhen(d){
+  return d.toLocaleString([], {month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}) + " · " + rel(d);
+}
+function rel(d){
+  const s=(Date.now()-d.getTime())/1000;
+  if(s<90) return "just now";
+  if(s<3600) return Math.round(s/60)+"m ago";
+  if(s<86400) return Math.round(s/3600)+"h ago";
+  return Math.round(s/86400)+"d ago";
+}
+
+// ---------------------------------------------------------------------------
+// Sample data generator (seeded) — only used when history.json is absent.
+// Produces the exact same shape the fetcher writes.
+// ---------------------------------------------------------------------------
+function sampleData(){
+  const teams = ["Simplex Voyagers","Heuristic Harbor","Branch & Bound","Tabu Tide",
+    "Annealing Anchors","Greedy Gantry","MetaDock","Gurobi Gulls","LP Relaxed"];
+  const rng = mulberry32(20260701);
+  const base = teams.map((t,i)=>({t, s: 88000 - i*300 - rng()*150}));  // tight, close race
+  const N = 34; // hourly snapshots (~33h span so 24h view trims)
+  const startHour = Math.floor(Date.now()/3600000)*3600000;           // align to :00
+  const start = startHour - (N-1)*3600*1000;
+  const snapshots = [];
+  for(let k=0;k<N;k++){
+    base.forEach(b=>{ b.s += (rng()-0.49)*650; });     // random walk with enough spread to cross
+    const ranked = [...base].sort((a,b)=>b.s-a.s);     // higher score = better rank
+    snapshots.push({
+      t: new Date(start + k*3600*1000).toISOString().replace(/\.\d{3}Z$/,"Z"),
+      standings: ranked.map((b,idx)=>({rank:idx+1, team:b.t, score:Math.round(b.s)}))
+    });
+  }
+  return {competition:"OGC 2026 (sample)", source:"https://optichallenge.com/leaderboard", snapshots};
+}
+function mulberry32(a){ return function(){ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a);
+  t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+
+boot();
+</script>

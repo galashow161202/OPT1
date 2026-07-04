@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04 15:00:00 UTC",
+  "generated_at": "2026-07-04 16:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "BONOBONO",
@@ -2561,6 +2561,16 @@
       ]
     },
     {
+      "team_name": "2357",
+      "group_rank": 26,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Beojji",
       "group_rank": 26,
       "nationality": [
@@ -2631,16 +2641,6 @@
       ]
     },
     {
-      "team_name": "PharmaOpt",
-      "group_rank": 26,
-      "nationality": [
-        "India"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "Zero",
       "group_rank": 26,
       "nationality": [
@@ -2653,16 +2653,6 @@
     {
       "team_name": "wondu",
       "group_rank": 26,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "2357",
-      "group_rank": 27,
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -2705,6 +2695,16 @@
       "group_rank": 27,
       "nationality": [
         "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "PharmaOpt",
+      "group_rank": 27,
+      "nationality": [
+        "India"
       ],
       "affiliation": [
         "academic"

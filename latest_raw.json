@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04 11:00:00 UTC",
+  "generated_at": "2026-07-04 12:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "BONOBONO",
@@ -223,16 +223,6 @@
       ]
     },
     {
-      "team_name": "Efficiency",
-      "group_rank": 3,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "ILoveProblems",
       "group_rank": 3,
       "nationality": [
@@ -303,6 +293,16 @@
       ]
     },
     {
+      "team_name": "room204",
+      "group_rank": 3,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "tsukammo",
       "group_rank": 3,
       "nationality": [
@@ -345,6 +345,16 @@
       ]
     },
     {
+      "team_name": "Efficiency",
+      "group_rank": 4,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "NCIA",
       "group_rank": 4,
       "nationality": [
@@ -363,6 +373,16 @@
       ],
       "affiliation": [
         "individual"
+      ]
+    },
+    {
+      "team_name": "TheFactoryMustGrow",
+      "group_rank": 4,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -386,26 +406,6 @@
       ]
     },
     {
-      "team_name": "jiaojing",
-      "group_rank": 4,
-      "nationality": [
-        "China"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
-      "team_name": "room204",
-      "group_rank": 4,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "건영식",
       "group_rank": 4,
       "nationality": [
@@ -416,27 +416,7 @@
       ]
     },
     {
-      "team_name": "최대난제",
-      "group_rank": 4,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "312",
-      "group_rank": 5,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "BlackBox",
       "group_rank": 5,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -497,13 +477,13 @@
       ]
     },
     {
-      "team_name": "TheFactoryMustGrow",
+      "team_name": "jiaojing",
       "group_rank": 5,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "China"
       ],
       "affiliation": [
-        "academic"
+        "company"
       ]
     },
     {
@@ -519,6 +499,26 @@
     {
       "team_name": "인간계최강자",
       "group_rank": 5,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "최대난제",
+      "group_rank": 5,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "BlackBox",
+      "group_rank": 6,
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

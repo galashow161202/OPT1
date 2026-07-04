@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04 16:00:00 UTC",
+  "generated_at": "2026-07-04 17:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "BONOBONO",
@@ -223,6 +223,16 @@
       ]
     },
     {
+      "team_name": "KS",
+      "group_rank": 3,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "MondayIsAlmostHere",
       "group_rank": 3,
       "nationality": [
@@ -250,16 +260,6 @@
       ],
       "affiliation": [
         "academic"
-      ]
-    },
-    {
-      "team_name": "coffee_nap",
-      "group_rank": 3,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "individual"
       ]
     },
     {
@@ -345,16 +345,6 @@
       ]
     },
     {
-      "team_name": "KS",
-      "group_rank": 4,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "NCIA",
       "group_rank": 4,
       "nationality": [
@@ -393,6 +383,16 @@
       ],
       "affiliation": [
         "academic"
+      ]
+    },
+    {
+      "team_name": "coffee_nap",
+      "group_rank": 4,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "individual"
       ]
     },
     {
@@ -619,7 +619,7 @@
       ]
     },
     {
-      "team_name": "FAST",
+      "team_name": "ETA0721",
       "group_rank": 7,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -629,7 +629,7 @@
       ]
     },
     {
-      "team_name": "MAPS",
+      "team_name": "FAST",
       "group_rank": 7,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -753,7 +753,7 @@
       ]
     },
     {
-      "team_name": "MSS",
+      "team_name": "MAPS",
       "group_rank": 8,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -763,13 +763,13 @@
       ]
     },
     {
-      "team_name": "MysteriousOpt",
+      "team_name": "MSS",
       "group_rank": 8,
       "nationality": [
-        "China"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "individual"
+        "academic"
       ]
     },
     {
@@ -811,16 +811,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "Anh's Left Arm",
-      "group_rank": 9,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "company"
       ]
     },
     {
@@ -874,6 +864,16 @@
       ]
     },
     {
+      "team_name": "MysteriousOpt",
+      "group_rank": 9,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "OPTALL",
       "group_rank": 9,
       "nationality": [
@@ -914,6 +914,16 @@
       ]
     },
     {
+      "team_name": "Anh's Left Arm",
+      "group_rank": 10,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "company"
+      ]
+    },
+    {
       "team_name": "CODeS-KULEUVEN",
       "group_rank": 10,
       "nationality": [
@@ -925,16 +935,6 @@
     },
     {
       "team_name": "Cook",
-      "group_rank": 10,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "ETA0721",
       "group_rank": 10,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1185,7 +1185,7 @@
       ]
     },
     {
-      "team_name": "Prove it",
+      "team_name": "REMORSE",
       "group_rank": 12,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1195,7 +1195,7 @@
       ]
     },
     {
-      "team_name": "REMORSE",
+      "team_name": "이론상 가능합니다.",
       "group_rank": 12,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1212,6 +1212,16 @@
       ],
       "affiliation": [
         "individual"
+      ]
+    },
+    {
+      "team_name": "Branch&Bound",
+      "group_rank": 13,
+      "nationality": [
+        "India"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -1295,16 +1305,6 @@
       ]
     },
     {
-      "team_name": "이론상 가능합니다.",
-      "group_rank": 13,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "차돌목살",
       "group_rank": 13,
       "nationality": [
@@ -1319,16 +1319,6 @@
       "group_rank": 14,
       "nationality": [
         "United States"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Branch&Bound",
-      "group_rank": 14,
-      "nationality": [
-        "India"
       ],
       "affiliation": [
         "academic"
@@ -1377,6 +1367,26 @@
     },
     {
       "team_name": "StackOverflow",
+      "group_rank": 14,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "Virtioz",
+      "group_rank": 14,
+      "nationality": [
+        "Pakistan"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
+      "team_name": "mg",
       "group_rank": 14,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1436,6 +1446,16 @@
       ]
     },
     {
+      "team_name": "Prove it",
+      "group_rank": 15,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Soeun",
       "group_rank": 15,
       "nationality": [
@@ -1443,26 +1463,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "Virtioz",
-      "group_rank": 15,
-      "nationality": [
-        "Pakistan"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
-      "team_name": "mg",
-      "group_rank": 15,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {

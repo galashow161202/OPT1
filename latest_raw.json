@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08 19:00:00 UTC",
+  "generated_at": "2026-07-08 20:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "BONOBONO",
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "team_name": "Efficiency",
+      "team_name": "GreenWojak",
       "group_rank": 4,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -427,7 +427,7 @@
       ]
     },
     {
-      "team_name": "ESC날벌레들",
+      "team_name": "Efficiency",
       "group_rank": 5,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "team_name": "GreenWojak",
+      "team_name": "ESC날벌레들",
       "group_rank": 6,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1025,16 +1025,6 @@
       ]
     },
     {
-      "team_name": "Cook",
-      "group_rank": 11,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "Emart 거창소만점",
       "group_rank": 11,
       "nationality": [
@@ -1083,16 +1073,6 @@
       "affiliation": [
         "company",
         "academic"
-      ]
-    },
-    {
-      "team_name": "Virtioz",
-      "group_rank": 11,
-      "nationality": [
-        "Pakistan"
-      ],
-      "affiliation": [
-        "individual"
       ]
     },
     {
@@ -1156,13 +1136,13 @@
       ]
     },
     {
-      "team_name": "Global optimum",
+      "team_name": "Cook",
       "group_rank": 12,
       "nationality": [
-        "India"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "individual"
+        "academic"
       ]
     },
     {
@@ -1186,20 +1166,20 @@
       ]
     },
     {
+      "team_name": "Virtioz",
+      "group_rank": 12,
+      "nationality": [
+        "Pakistan"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "qwer",
       "group_rank": 12,
       "nationality": [
         "China"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "명량",
-      "group_rank": 12,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -1246,6 +1226,16 @@
       ]
     },
     {
+      "team_name": "Global optimum",
+      "group_rank": 13,
+      "nationality": [
+        "India"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "HITOORI",
       "group_rank": 13,
       "nationality": [
@@ -1253,16 +1243,6 @@
       ],
       "affiliation": [
         "academic"
-      ]
-    },
-    {
-      "team_name": "Inetis",
-      "group_rank": 13,
-      "nationality": [
-        "Slovenia"
-      ],
-      "affiliation": [
-        "company"
       ]
     },
     {
@@ -1306,7 +1286,7 @@
       ]
     },
     {
-      "team_name": "독도는 한국땅",
+      "team_name": "명량",
       "group_rank": 13,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1356,13 +1336,13 @@
       ]
     },
     {
-      "team_name": "Bunnies",
+      "team_name": "Inetis",
       "group_rank": 14,
       "nationality": [
-        "United States"
+        "Slovenia"
       ],
       "affiliation": [
-        "academic"
+        "company"
       ]
     },
     {
@@ -1386,16 +1366,6 @@
       ]
     },
     {
-      "team_name": "Stolen Kimchi",
-      "group_rank": 14,
-      "nationality": [
-        "United States"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
       "team_name": "nobody",
       "group_rank": 14,
       "nationality": [
@@ -1403,6 +1373,16 @@
       ],
       "affiliation": [
         "individual"
+      ]
+    },
+    {
+      "team_name": "독도는 한국땅",
+      "group_rank": 14,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -1437,20 +1417,20 @@
       ]
     },
     {
-      "team_name": "CUFE",
+      "team_name": "Bunnies",
       "group_rank": 15,
       "nationality": [
-        "Egypt"
+        "United States"
       ],
       "affiliation": [
         "academic"
       ]
     },
     {
-      "team_name": "Diget",
+      "team_name": "CUFE",
       "group_rank": 15,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "Egypt"
       ],
       "affiliation": [
         "academic"
@@ -1487,13 +1467,13 @@
       ]
     },
     {
-      "team_name": "REMORSE",
+      "team_name": "Stolen Kimchi",
       "group_rank": 15,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "United States"
       ],
       "affiliation": [
-        "academic"
+        "company"
       ]
     },
     {
@@ -1547,10 +1527,10 @@
       ]
     },
     {
-      "team_name": "Branch&Bound",
+      "team_name": "Diget",
       "group_rank": 16,
       "nationality": [
-        "India"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -1587,10 +1567,10 @@
       ]
     },
     {
-      "team_name": "Rocket",
+      "team_name": "REMORSE",
       "group_rank": 16,
       "nationality": [
-        "China"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -1647,6 +1627,16 @@
       ]
     },
     {
+      "team_name": "Branch&Bound",
+      "group_rank": 17,
+      "nationality": [
+        "India"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Gooday",
       "group_rank": 17,
       "nationality": [
@@ -1677,10 +1667,10 @@
       ]
     },
     {
-      "team_name": "SMETYSON",
+      "team_name": "Rocket",
       "group_rank": 17,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "China"
       ],
       "affiliation": [
         "academic"
@@ -1767,13 +1757,12 @@
       ]
     },
     {
-      "team_name": "Orion",
+      "team_name": "SMETYSON",
       "group_rank": 18,
       "nationality": [
-        "India"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "company",
         "academic"
       ]
     },
@@ -1858,13 +1847,14 @@
       ]
     },
     {
-      "team_name": "OR_3Bros",
+      "team_name": "Orion",
       "group_rank": 19,
       "nationality": [
-        "China"
+        "India"
       ],
       "affiliation": [
-        "individual"
+        "company",
+        "academic"
       ]
     },
     {
@@ -1968,6 +1958,16 @@
       ]
     },
     {
+      "team_name": "OR_3Bros",
+      "group_rank": 20,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "OpenMind",
       "group_rank": 20,
       "nationality": [
@@ -1983,16 +1983,6 @@
       "group_rank": 20,
       "nationality": [
         "United States"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "amuse5516",
-      "group_rank": 20,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -2099,10 +2089,10 @@
       ]
     },
     {
-      "team_name": "ToniTeam",
+      "team_name": "amuse5516",
       "group_rank": 21,
       "nationality": [
-        "Spain"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -2181,6 +2171,16 @@
       ]
     },
     {
+      "team_name": "ToniTeam",
+      "group_rank": 22,
+      "nationality": [
+        "Spain"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "bigtree",
       "group_rank": 22,
       "nationality": [
@@ -2208,16 +2208,6 @@
       ],
       "affiliation": [
         "academic"
-      ]
-    },
-    {
-      "team_name": "yunix",
-      "group_rank": 22,
-      "nationality": [
-        "Japan"
-      ],
-      "affiliation": [
-        "company"
       ]
     },
     {
@@ -2311,16 +2301,6 @@
       ]
     },
     {
-      "team_name": "apex",
-      "group_rank": 23,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "lovelim",
       "group_rank": 23,
       "nationality": [
@@ -2338,6 +2318,16 @@
       ],
       "affiliation": [
         "individual"
+      ]
+    },
+    {
+      "team_name": "yunix",
+      "group_rank": 23,
+      "nationality": [
+        "Japan"
+      ],
+      "affiliation": [
+        "company"
       ]
     },
     {
@@ -2372,16 +2362,6 @@
     },
     {
       "team_name": "Chioh Lee",
-      "group_rank": 24,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Cortis",
       "group_rank": 24,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2441,6 +2421,16 @@
       ]
     },
     {
+      "team_name": "apex",
+      "group_rank": 24,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "rleprat",
       "group_rank": 24,
       "nationality": [
@@ -2471,10 +2461,10 @@
       ]
     },
     {
-      "team_name": "KKD",
+      "team_name": "Cortis",
       "group_rank": 25,
       "nationality": [
-        "Japan"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -2591,6 +2581,16 @@
       ]
     },
     {
+      "team_name": "KKD",
+      "group_rank": 26,
+      "nationality": [
+        "Japan"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "OTTO",
       "group_rank": 26,
       "nationality": [
@@ -2642,16 +2642,6 @@
       ]
     },
     {
-      "team_name": "일찍출퇴근",
-      "group_rank": 26,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "Crispy",
       "group_rank": 27,
       "nationality": [
@@ -2663,16 +2653,6 @@
     },
     {
       "team_name": "DA",
-      "group_rank": 27,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Hatsukoi",
       "group_rank": 27,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2752,7 +2732,7 @@
       ]
     },
     {
-      "team_name": "방구석개발자",
+      "team_name": "일찍출퇴근",
       "group_rank": 27,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2773,7 +2753,7 @@
       ]
     },
     {
-      "team_name": "HeyJude",
+      "team_name": "Hatsukoi",
       "group_rank": 28,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2843,17 +2823,17 @@
       ]
     },
     {
-      "team_name": "tmux2024",
+      "team_name": "라미네이트",
       "group_rank": 28,
       "nationality": [
-        "United States"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "individual"
+        "academic"
       ]
     },
     {
-      "team_name": "라미네이트",
+      "team_name": "방구석개발자",
       "group_rank": 28,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2913,6 +2893,16 @@
       ]
     },
     {
+      "team_name": "HeyJude",
+      "group_rank": 29,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "NoOverlap",
       "group_rank": 29,
       "nationality": [
@@ -2920,27 +2910,6 @@
       ],
       "affiliation": [
         "academic"
-      ]
-    },
-    {
-      "team_name": "PharmaOpt",
-      "group_rank": 29,
-      "nationality": [
-        "India"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "ThreeMuskytears",
-      "group_rank": 29,
-      "nationality": [
-        "United States"
-      ],
-      "affiliation": [
-        "academic",
-        "individual"
       ]
     },
     {
@@ -2954,7 +2923,17 @@
       ]
     },
     {
-      "team_name": "갭제로",
+      "team_name": "tmux2024",
+      "group_rank": 29,
+      "nationality": [
+        "United States"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
+      "team_name": "산시뻘건악마둘",
       "group_rank": 29,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2968,16 +2947,6 @@
       "group_rank": 30,
       "nationality": [
         "Bangladesh"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "AIIS_YG",
-      "group_rank": 30,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -3014,26 +2983,6 @@
       ]
     },
     {
-      "team_name": "Jambomin",
-      "group_rank": 30,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
-      "team_name": "Mobile",
-      "group_rank": 30,
-      "nationality": [
-        "Indonesia"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
       "team_name": "OPTIMUS",
       "group_rank": 30,
       "nationality": [
@@ -3044,32 +2993,23 @@
       ]
     },
     {
-      "team_name": "Optimoo",
-      "group_rank": 30,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Pink Unicorn",
-      "group_rank": 30,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "The Reverend",
+      "team_name": "PharmaOpt",
       "group_rank": 30,
       "nationality": [
         "India"
       ],
       "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "ThreeMuskytears",
+      "group_rank": 30,
+      "nationality": [
+        "United States"
+      ],
+      "affiliation": [
+        "academic",
         "individual"
       ]
     },
@@ -3094,37 +3034,7 @@
       ]
     },
     {
-      "team_name": "jiaojing",
-      "group_rank": 30,
-      "nationality": [
-        "China"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
-      "team_name": "kirimbizi",
-      "group_rank": 30,
-      "nationality": [
-        "Spain"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "nytrome",
-      "group_rank": 30,
-      "nationality": [
-        "India"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "얼박사 연구소",
+      "team_name": "갭제로",
       "group_rank": 30,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -3134,8 +3044,108 @@
       ]
     },
     {
+      "team_name": "AIIS_YG",
+      "group_rank": 31,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "Jambomin",
+      "group_rank": 31,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "company"
+      ]
+    },
+    {
+      "team_name": "Mobile",
+      "group_rank": 31,
+      "nationality": [
+        "Indonesia"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
+      "team_name": "Optimoo",
+      "group_rank": 31,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "Pink Unicorn",
+      "group_rank": 31,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "The Reverend",
+      "group_rank": 31,
+      "nationality": [
+        "India"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
+      "team_name": "jiaojing",
+      "group_rank": 31,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "company"
+      ]
+    },
+    {
+      "team_name": "kirimbizi",
+      "group_rank": 31,
+      "nationality": [
+        "Spain"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "nytrome",
+      "group_rank": 31,
+      "nationality": [
+        "India"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "얼박사 연구소",
+      "group_rank": 31,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "예공제 미남들",
-      "group_rank": 30,
+      "group_rank": 31,
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

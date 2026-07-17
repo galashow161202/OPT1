@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17 10:00:00 UTC",
+  "generated_at": "2026-07-17 11:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "AmazeAmazeAmaze",
@@ -641,16 +641,6 @@
       ]
     },
     {
-      "team_name": "Emart 거창소만점",
-      "group_rank": 7,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "ILoveProblems",
       "group_rank": 7,
       "nationality": [
@@ -752,27 +742,17 @@
       ]
     },
     {
+      "team_name": "Emart 거창소만점",
+      "group_rank": 8,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "GIGU",
-      "group_rank": 8,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Graveyard",
-      "group_rank": 8,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "IISL",
       "group_rank": 8,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -789,6 +769,16 @@
       ],
       "affiliation": [
         "individual"
+      ]
+    },
+    {
+      "team_name": "REBORN",
+      "group_rank": 8,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -842,6 +832,26 @@
       ]
     },
     {
+      "team_name": "Graveyard",
+      "group_rank": 9,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "IISL",
+      "group_rank": 9,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Letthedreamersrise",
       "group_rank": 9,
       "nationality": [
@@ -867,26 +877,6 @@
       "group_rank": 9,
       "nationality": [
         "China"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Optimizer",
-      "group_rank": 9,
-      "nationality": [
-        "Canada"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
-      "team_name": "REBORN",
-      "group_rank": 9,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -984,6 +974,16 @@
       ]
     },
     {
+      "team_name": "Optimizer",
+      "group_rank": 10,
+      "nationality": [
+        "Canada"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "Smoop",
       "group_rank": 10,
       "nationality": [
@@ -1011,16 +1011,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "보리꼬리",
-      "group_rank": 10,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {
@@ -1124,7 +1114,7 @@
       ]
     },
     {
-      "team_name": "天狐紫吹",
+      "team_name": "보리꼬리",
       "group_rank": 11,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1158,16 +1148,6 @@
       "group_rank": 12,
       "nationality": [
         "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "NEU_sun",
-      "group_rank": 12,
-      "nationality": [
-        "China"
       ],
       "affiliation": [
         "academic"
@@ -1234,6 +1214,16 @@
       ]
     },
     {
+      "team_name": "天狐紫吹",
+      "group_rank": 12,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "클사남",
       "group_rank": 12,
       "nationality": [
@@ -1271,16 +1261,6 @@
       ],
       "affiliation": [
         "academic"
-      ]
-    },
-    {
-      "team_name": "Blockbuster",
-      "group_rank": 13,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "individual"
       ]
     },
     {
@@ -1324,6 +1304,16 @@
       ]
     },
     {
+      "team_name": "NEU_sun",
+      "group_rank": 13,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "OptiFrame",
       "group_rank": 13,
       "nationality": [
@@ -1351,6 +1341,16 @@
       ],
       "affiliation": [
         "academic"
+      ]
+    },
+    {
+      "team_name": "Blockbuster",
+      "group_rank": 14,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "individual"
       ]
     },
     {
@@ -1404,16 +1404,6 @@
       ]
     },
     {
-      "team_name": "mg",
-      "group_rank": 14,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "seaweedsoup",
       "group_rank": 14,
       "nationality": [
@@ -1445,16 +1435,6 @@
     },
     {
       "team_name": "CSI",
-      "group_rank": 15,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "First Penguin",
       "group_rank": 15,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1499,6 +1479,16 @@
       "group_rank": 15,
       "nationality": [
         "United States"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "mg",
+      "group_rank": 15,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -1576,6 +1566,16 @@
       ]
     },
     {
+      "team_name": "First Penguin",
+      "group_rank": 16,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Goethe",
       "group_rank": 16,
       "nationality": [
@@ -1603,16 +1603,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "oTEAMization",
-      "group_rank": 16,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {
@@ -1726,7 +1716,7 @@
       ]
     },
     {
-      "team_name": "lovelim",
+      "team_name": "oTEAMization",
       "group_rank": 17,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1806,6 +1796,16 @@
       ]
     },
     {
+      "team_name": "lovelim",
+      "group_rank": 18,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "언젠간 이김용",
       "group_rank": 18,
       "nationality": [
@@ -1828,16 +1828,6 @@
     },
     {
       "team_name": "이론상 가능합니다.",
-      "group_rank": 18,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "제가요?",
       "group_rank": 18,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -1918,16 +1908,6 @@
       ]
     },
     {
-      "team_name": "nobody",
-      "group_rank": 19,
-      "nationality": [
-        "China"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
       "team_name": "독도는 한국땅",
       "group_rank": 19,
       "nationality": [
@@ -1945,6 +1925,16 @@
       ],
       "affiliation": [
         "company",
+        "academic"
+      ]
+    },
+    {
+      "team_name": "제가요?",
+      "group_rank": 19,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
         "academic"
       ]
     },
@@ -2021,6 +2011,16 @@
       ]
     },
     {
+      "team_name": "nobody",
+      "group_rank": 20,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "심심한데 스케쥴링이나해야겠다~",
       "group_rank": 20,
       "nationality": [
@@ -2041,16 +2041,6 @@
       ]
     },
     {
-      "team_name": "탐정",
-      "group_rank": 20,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
       "team_name": "*23#",
       "group_rank": 21,
       "nationality": [
@@ -2068,16 +2058,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "AIOPT",
-      "group_rank": 21,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {
@@ -2151,6 +2131,26 @@
       ]
     },
     {
+      "team_name": "탐정",
+      "group_rank": 21,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
+      "team_name": "AIOPT",
+      "group_rank": 22,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Branch&Bound",
       "group_rank": 22,
       "nationality": [
@@ -2178,16 +2178,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "Optimal_1126",
-      "group_rank": 22,
-      "nationality": [
-        "China"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {
@@ -2281,6 +2271,16 @@
       ]
     },
     {
+      "team_name": "Optimal_1126",
+      "group_rank": 23,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Orion",
       "group_rank": 23,
       "nationality": [
@@ -2342,40 +2342,10 @@
       ]
     },
     {
-      "team_name": "수동눈깜빡임",
-      "group_rank": 23,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
-      "team_name": "연희동호랑이",
-      "group_rank": 23,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "DMS",
       "group_rank": 24,
       "nationality": [
         "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "Oooy",
-      "group_rank": 24,
-      "nationality": [
-        "China"
       ],
       "affiliation": [
         "academic"
@@ -2412,16 +2382,6 @@
       ]
     },
     {
-      "team_name": "거북이는빠르다",
-      "group_rank": 24,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "기분전환",
       "group_rank": 24,
       "nationality": [
@@ -2442,6 +2402,16 @@
       ]
     },
     {
+      "team_name": "수동눈깜빡임",
+      "group_rank": 24,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "company"
+      ]
+    },
+    {
       "team_name": "아주 동국이 만만하지?",
       "group_rank": 24,
       "nationality": [
@@ -2449,6 +2419,16 @@
       ],
       "affiliation": [
         "individual"
+      ]
+    },
+    {
+      "team_name": "연희동호랑이",
+      "group_rank": 24,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -2482,10 +2462,10 @@
       ]
     },
     {
-      "team_name": "LoveOpt",
+      "team_name": "Oooy",
       "group_rank": 25,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "China"
       ],
       "affiliation": [
         "academic"
@@ -2523,16 +2503,6 @@
       ]
     },
     {
-      "team_name": "amuse5516",
-      "group_rank": 25,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "yunix",
       "group_rank": 25,
       "nationality": [
@@ -2540,6 +2510,16 @@
       ],
       "affiliation": [
         "company"
+      ]
+    },
+    {
+      "team_name": "거북이는빠르다",
+      "group_rank": 25,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -2593,6 +2573,16 @@
       ]
     },
     {
+      "team_name": "LoveOpt",
+      "group_rank": 26,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "MANGO",
       "group_rank": 26,
       "nationality": [
@@ -2603,7 +2593,7 @@
       ]
     },
     {
-      "team_name": "Optimal",
+      "team_name": "amuse5516",
       "group_rank": 26,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2643,40 +2633,10 @@
       ]
     },
     {
-      "team_name": "예공제 미남들",
-      "group_rank": 26,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "잘잘잘",
-      "group_rank": 26,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "팔달관~야호~✩✩",
       "group_rank": 26,
       "nationality": [
         "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
-      "team_name": "Black dragon",
-      "group_rank": 27,
-      "nationality": [
-        "Egypt"
       ],
       "affiliation": [
         "individual"
@@ -2703,18 +2663,7 @@
       ]
     },
     {
-      "team_name": "OptIntern",
-      "group_rank": 27,
-      "nationality": [
-        "China"
-      ],
-      "affiliation": [
-        "company",
-        "individual"
-      ]
-    },
-    {
-      "team_name": "Requiem",
+      "team_name": "Optimal",
       "group_rank": 27,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2775,6 +2724,26 @@
       ]
     },
     {
+      "team_name": "예공제 미남들",
+      "group_rank": 27,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "잘잘잘",
+      "group_rank": 27,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "2357",
       "group_rank": 28,
       "nationality": [
@@ -2795,13 +2764,13 @@
       ]
     },
     {
-      "team_name": "Apple Pie",
+      "team_name": "Black dragon",
       "group_rank": 28,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "Egypt"
       ],
       "affiliation": [
-        "academic"
+        "individual"
       ]
     },
     {
@@ -2835,6 +2804,17 @@
       ]
     },
     {
+      "team_name": "OptIntern",
+      "group_rank": 28,
+      "nationality": [
+        "China"
+      ],
+      "affiliation": [
+        "company",
+        "individual"
+      ]
+    },
+    {
       "team_name": "Optimus",
       "group_rank": 28,
       "nationality": [
@@ -2845,13 +2825,13 @@
       ]
     },
     {
-      "team_name": "hii",
+      "team_name": "Requiem",
       "group_rank": 28,
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "individual"
+        "academic"
       ]
     },
     {
@@ -2865,17 +2845,7 @@
       ]
     },
     {
-      "team_name": "훈제연어포케",
-      "group_rank": 28,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
-      "team_name": "Antifreeze",
+      "team_name": "Apple Pie",
       "group_rank": 29,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -2925,16 +2895,6 @@
       ]
     },
     {
-      "team_name": "Mobile",
-      "group_rank": 29,
-      "nationality": [
-        "Indonesia"
-      ],
-      "affiliation": [
-        "individual"
-      ]
-    },
-    {
       "team_name": "MyGo",
       "group_rank": 29,
       "nationality": [
@@ -2955,13 +2915,13 @@
       ]
     },
     {
-      "team_name": "Son of Sung's Family",
+      "team_name": "hii",
       "group_rank": 29,
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "academic"
+        "individual"
       ]
     },
     {
@@ -2975,7 +2935,17 @@
       ]
     },
     {
-      "team_name": "#FF7F27",
+      "team_name": "훈제연어포케",
+      "group_rank": 29,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
+      "team_name": "Antifreeze",
       "group_rank": 30,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -3015,20 +2985,20 @@
       ]
     },
     {
-      "team_name": "LJI",
+      "team_name": "Mobile",
       "group_rank": 30,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "Indonesia"
       ],
       "affiliation": [
-        "company"
+        "individual"
       ]
     },
     {
-      "team_name": "Tim Team",
+      "team_name": "Son of Sung's Family",
       "group_rank": 30,
       "nationality": [
-        "China"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -3075,6 +3045,16 @@
       ]
     },
     {
+      "team_name": "#FF7F27",
+      "group_rank": 31,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "HJW",
       "group_rank": 31,
       "nationality": [
@@ -3095,13 +3075,13 @@
       ]
     },
     {
-      "team_name": "IG",
+      "team_name": "LJI",
       "group_rank": 31,
       "nationality": [
-        "China"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "individual"
+        "company"
       ]
     },
     {
@@ -3126,13 +3106,13 @@
       ]
     },
     {
-      "team_name": "ShipShape",
+      "team_name": "Tim Team",
       "group_rank": 31,
       "nationality": [
-        "United States"
+        "China"
       ],
       "affiliation": [
-        "individual"
+        "academic"
       ]
     },
     {
@@ -3143,16 +3123,6 @@
       ],
       "affiliation": [
         "company"
-      ]
-    },
-    {
-      "team_name": "Version114",
-      "group_rank": 31,
-      "nationality": [
-        "India"
-      ],
-      "affiliation": [
-        "individual"
       ]
     },
     {
@@ -3206,23 +3176,13 @@
       ]
     },
     {
-      "team_name": "Die Erdbeeren",
+      "team_name": "IG",
       "group_rank": 32,
       "nationality": [
-        "Germany"
+        "China"
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "Lemon",
-      "group_rank": 32,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {
@@ -3246,6 +3206,16 @@
       ]
     },
     {
+      "team_name": "ShipShape",
+      "group_rank": 32,
+      "nationality": [
+        "United States"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "ThreeMuskytears",
       "group_rank": 32,
       "nationality": [
@@ -3257,13 +3227,13 @@
       ]
     },
     {
-      "team_name": "WN",
+      "team_name": "Version114",
       "group_rank": 32,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "India"
       ],
       "affiliation": [
-        "academic"
+        "individual"
       ]
     },
     {
@@ -3288,6 +3258,16 @@
       ]
     },
     {
+      "team_name": "Die Erdbeeren",
+      "group_rank": 33,
+      "nationality": [
+        "Germany"
+      ],
+      "affiliation": [
+        "individual"
+      ]
+    },
+    {
       "team_name": "Echo",
       "group_rank": 33,
       "nationality": [
@@ -3298,17 +3278,17 @@
       ]
     },
     {
-      "team_name": "Handsonlabs S.A.",
+      "team_name": "Hatsukoi",
       "group_rank": 33,
       "nationality": [
-        "Nigeria"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
-        "company"
+        "academic"
       ]
     },
     {
-      "team_name": "Hatsukoi",
+      "team_name": "Lemon",
       "group_rank": 33,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -3348,20 +3328,10 @@
       ]
     },
     {
-      "team_name": "Zero",
+      "team_name": "WN",
       "group_rank": 33,
       "nationality": [
-        "India"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "longzhiguo",
-      "group_rank": 33,
-      "nationality": [
-        "China"
+        "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
@@ -3408,6 +3378,16 @@
       ]
     },
     {
+      "team_name": "Handsonlabs S.A.",
+      "group_rank": 34,
+      "nationality": [
+        "Nigeria"
+      ],
+      "affiliation": [
+        "company"
+      ]
+    },
+    {
       "team_name": "HeyJude",
       "group_rank": 34,
       "nationality": [
@@ -3428,10 +3408,20 @@
       ]
     },
     {
-      "team_name": "Optimoo",
+      "team_name": "Zero",
       "group_rank": 34,
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "India"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "longzhiguo",
+      "group_rank": 34,
+      "nationality": [
+        "China"
       ],
       "affiliation": [
         "academic"
@@ -3455,26 +3445,6 @@
       ],
       "affiliation": [
         "individual"
-      ]
-    },
-    {
-      "team_name": "uai-opt",
-      "group_rank": 34,
-      "nationality": [
-        "Brazil"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
-      "team_name": "전국베짱이협회",
-      "group_rank": 34,
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
       ]
     },
     {
@@ -3519,6 +3489,16 @@
     },
     {
       "team_name": "OPTIMUS",
+      "group_rank": 35,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "Optimoo",
       "group_rank": 35,
       "nationality": [
         "Korea, Republic of (대한민국)"
@@ -3588,7 +3568,27 @@
       ]
     },
     {
+      "team_name": "uai-opt",
+      "group_rank": 35,
+      "nationality": [
+        "Brazil"
+      ],
+      "affiliation": [
+        "company"
+      ]
+    },
+    {
       "team_name": "얼박사 연구소",
+      "group_rank": 35,
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "전국베짱이협회",
       "group_rank": 35,
       "nationality": [
         "Korea, Republic of (대한민국)"

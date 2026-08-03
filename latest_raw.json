@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03 18:00:00 UTC",
+  "generated_at": "2026-08-03 20:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "team_name": "인간계최강자",
+      "team_name": "무근본바이브코더",
       "group_rank": 2,
       "group_rank_7days": "2",
       "nationality": [
@@ -170,17 +170,6 @@
       ]
     },
     {
-      "team_name": "DataNinja",
-      "group_rank": 2,
-      "group_rank_7days": "2",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "Jyang",
       "group_rank": 2,
       "group_rank_7days": "2",
@@ -226,9 +215,9 @@
       ]
     },
     {
-      "team_name": "무근본바이브코더",
-      "group_rank": 3,
-      "group_rank_7days": "3",
+      "team_name": "sungsigyung",
+      "group_rank": 2,
+      "group_rank_7days": "2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -248,7 +237,7 @@
       ]
     },
     {
-      "team_name": "야호",
+      "team_name": "인간계최강자",
       "group_rank": 3,
       "group_rank_7days": "3",
       "nationality": [
@@ -260,6 +249,17 @@
     },
     {
       "team_name": "Cook",
+      "group_rank": 3,
+      "group_rank_7days": "3",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "DataNinja",
       "group_rank": 3,
       "group_rank_7days": "3",
       "nationality": [
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "team_name": "sungsigyung",
+      "team_name": "야호",
       "group_rank": 4,
       "group_rank_7days": "4",
       "nationality": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 07:00:00 UTC",
+  "generated_at": "2026-08-04 10:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -50,7 +50,7 @@
     {
       "team_name": "OGiC",
       "group_rank": 1,
-      "group_rank_7days": "1",
+      "group_rank_7days": "1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -73,7 +73,7 @@
     {
       "team_name": "Team name",
       "group_rank": 1,
-      "group_rank_7days": "1",
+      "group_rank_7days": "1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -84,7 +84,7 @@
     {
       "team_name": "TheFactoryMustGrow",
       "group_rank": 1,
-      "group_rank_7days": "1",
+      "group_rank_7days": "1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -106,7 +106,7 @@
     {
       "team_name": "Trough",
       "group_rank": 1,
-      "group_rank_7days": "1",
+      "group_rank_7days": "1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -116,17 +116,6 @@
     },
     {
       "team_name": "무근본바이브코더",
-      "group_rank": 2,
-      "group_rank_7days": "1→2",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "최대난제",
       "group_rank": 2,
       "group_rank_7days": "2→2",
       "nationality": [
@@ -139,7 +128,7 @@
     {
       "team_name": "AmazeAmazeAmaze",
       "group_rank": 2,
-      "group_rank_7days": "1→2",
+      "group_rank_7days": "2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -150,7 +139,7 @@
     {
       "team_name": "Baeptima",
       "group_rank": 2,
-      "group_rank_7days": "2",
+      "group_rank_7days": "2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -167,6 +156,17 @@
       ],
       "affiliation": [
         "company"
+      ]
+    },
+    {
+      "team_name": "DataNinja",
+      "group_rank": 2,
+      "group_rank_7days": "1→2",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {
@@ -206,7 +206,7 @@
     {
       "team_name": "MSGA",
       "group_rank": 2,
-      "group_rank_7days": "2",
+      "group_rank_7days": "2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -217,7 +217,7 @@
     {
       "team_name": "sungsigyung",
       "group_rank": 2,
-      "group_rank_7days": "2",
+      "group_rank_7days": "3→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -228,7 +228,7 @@
     {
       "team_name": "바나나맛우유",
       "group_rank": 3,
-      "group_rank_7days": "3",
+      "group_rank_7days": "2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -239,7 +239,18 @@
     {
       "team_name": "인간계최강자",
       "group_rank": 3,
-      "group_rank_7days": "1→3",
+      "group_rank_7days": "2→3",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "최대난제",
+      "group_rank": 3,
+      "group_rank_7days": "3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -250,18 +261,7 @@
     {
       "team_name": "Cook",
       "group_rank": 3,
-      "group_rank_7days": "2→3",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "DataNinja",
-      "group_rank": 3,
-      "group_rank_7days": "1→3",
+      "group_rank_7days": "3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -272,7 +272,7 @@
     {
       "team_name": "GrandOptima",
       "group_rank": 3,
-      "group_rank_7days": "1→3",
+      "group_rank_7days": "2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -283,7 +283,7 @@
     {
       "team_name": "HermioneL",
       "group_rank": 3,
-      "group_rank_7days": "3",
+      "group_rank_7days": "3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -294,7 +294,7 @@
     {
       "team_name": "Hortons",
       "group_rank": 3,
-      "group_rank_7days": "3",
+      "group_rank_7days": "2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -305,7 +305,7 @@
     {
       "team_name": "LiminalSpace",
       "group_rank": 3,
-      "group_rank_7days": "3",
+      "group_rank_7days": "2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

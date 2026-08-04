@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 15:00:00 UTC",
+  "generated_at": "2026-08-04 17:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -237,9 +237,9 @@
       ]
     },
     {
-      "team_name": "야호",
+      "team_name": "인간계최강자",
       "group_rank": 3,
-      "group_rank_7days": "3→3",
+      "group_rank_7days": "2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -248,9 +248,9 @@
       ]
     },
     {
-      "team_name": "인간계최강자",
+      "team_name": "COIS",
       "group_rank": 3,
-      "group_rank_7days": "2→3",
+      "group_rank_7days": "3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -333,6 +333,28 @@
       ],
       "affiliation": [
         "company"
+      ]
+    },
+    {
+      "team_name": "야호",
+      "group_rank": 4,
+      "group_rank_7days": "3→4",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "IISL",
+      "group_rank": 4,
+      "group_rank_7days": "4",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     },
     {

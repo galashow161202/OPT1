@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 16:00:00 UTC",
+  "generated_at": "2026-08-07 17:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -157,17 +157,6 @@
       ]
     },
     {
-      "team_name": "DataNinja",
-      "group_rank": 2,
-      "group_rank_7days": "2→2→2→2→2",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "ESI",
       "group_rank": 2,
       "group_rank_7days": "1→2→2→1→2",
@@ -270,9 +259,9 @@
       ]
     },
     {
-      "team_name": "COIS",
+      "team_name": "DataNinja",
       "group_rank": 3,
-      "group_rank_7days": "3→3→3→3",
+      "group_rank_7days": "2→2→2→2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -281,9 +270,9 @@
       ]
     },
     {
-      "team_name": "GrandOptima",
+      "team_name": "HermioneL",
       "group_rank": 3,
-      "group_rank_7days": "2→3→3→3→3",
+      "group_rank_7days": "3→3→4→4→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -294,7 +283,7 @@
     {
       "team_name": "Hortons",
       "group_rank": 3,
-      "group_rank_7days": "3→3→3→4→3",
+      "group_rank_7days": "3→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -327,7 +316,7 @@
     {
       "team_name": "Qampo",
       "group_rank": 3,
-      "group_rank_7days": "3→3",
+      "group_rank_7days": "4→3",
       "nationality": [
         "Denmark"
       ],
@@ -358,9 +347,9 @@
       ]
     },
     {
-      "team_name": "hee",
+      "team_name": "COIS",
       "group_rank": 4,
-      "group_rank_7days": "4→4",
+      "group_rank_7days": "3→3→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -369,9 +358,20 @@
       ]
     },
     {
-      "team_name": "HermioneL",
+      "team_name": "GrandOptima",
       "group_rank": 4,
-      "group_rank_7days": "3→3→4→4→4",
+      "group_rank_7days": "2→3→3→3→4",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "hee",
+      "group_rank": 4,
+      "group_rank_7days": "4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -404,7 +404,7 @@
     {
       "team_name": "XYDT",
       "group_rank": 4,
-      "group_rank_7days": "3→3→2→4",
+      "group_rank_7days": "3→3→3→4",
       "nationality": [
         "China"
       ],

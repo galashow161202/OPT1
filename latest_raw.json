@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 06:00:00 UTC",
+  "generated_at": "2026-08-07 07:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -37,7 +37,7 @@
     {
       "team_name": "Issyk Cool",
       "group_rank": 1,
-      "group_rank_7days": "1→1→1→1",
+      "group_rank_7days": "1→1→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)",
         "Kyrgyzstan"
@@ -116,7 +116,7 @@
     {
       "team_name": "인간계최강자",
       "group_rank": 2,
-      "group_rank_7days": "3→2→2→2",
+      "group_rank_7days": "1→3→3→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -127,7 +127,7 @@
     {
       "team_name": "최대난제",
       "group_rank": 2,
-      "group_rank_7days": "2→2→3→2",
+      "group_rank_7days": "2→2→2→3→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -149,7 +149,7 @@
     {
       "team_name": "Cook",
       "group_rank": 2,
-      "group_rank_7days": "3→3→2→2",
+      "group_rank_7days": "2→3→2→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -183,7 +183,7 @@
     {
       "team_name": "Jyang",
       "group_rank": 2,
-      "group_rank_7days": "2→2→2→2",
+      "group_rank_7days": "1→2→2→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -194,7 +194,7 @@
     {
       "team_name": "kgu_mis_21",
       "group_rank": 2,
-      "group_rank_7days": "2→2→2→2",
+      "group_rank_7days": "1→2→2→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -393,7 +393,7 @@
     {
       "team_name": "OPTLSL",
       "group_rank": 4,
-      "group_rank_7days": "3→3→3→4",
+      "group_rank_7days": "2→3→3→3→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

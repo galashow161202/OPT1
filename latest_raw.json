@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 12:00:00 UTC",
+  "generated_at": "2026-08-07 13:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -160,7 +160,7 @@
     {
       "team_name": "ESI",
       "group_rank": 2,
-      "group_rank_7days": "2→2→1→2",
+      "group_rank_7days": "1→2→2→1→2",
       "nationality": [
         "France",
         "Luxembourg"
@@ -183,7 +183,7 @@
     {
       "team_name": "kgu_mis_21",
       "group_rank": 2,
-      "group_rank_7days": "1→2→2→2→2",
+      "group_rank_7days": "2→2→2→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -281,9 +281,20 @@
       ]
     },
     {
+      "team_name": "GrandOptima",
+      "group_rank": 3,
+      "group_rank_7days": "2→3→3→3→3",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "Hortons",
       "group_rank": 3,
-      "group_rank_7days": "2→3→4→4→3",
+      "group_rank_7days": "3→3→4→4→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -347,17 +358,6 @@
       ]
     },
     {
-      "team_name": "GrandOptima",
-      "group_rank": 4,
-      "group_rank_7days": "2→3→3→3→4",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "hee",
       "group_rank": 4,
       "group_rank_7days": "4",
@@ -393,7 +393,7 @@
     {
       "team_name": "manggo",
       "group_rank": 4,
-      "group_rank_7days": "3→4→4→4",
+      "group_rank_7days": "3→3→4→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

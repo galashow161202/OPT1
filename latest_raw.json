@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 20:00:00 UTC",
+  "generated_at": "2026-08-07 21:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
@@ -16,6 +16,17 @@
       "team_name": "AmazeAmazeAmaze",
       "group_rank": 1,
       "group_rank_7days": "2→2→2→2→1",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "BONOBONO",
+      "group_rank": 1,
+      "group_rank_7days": "1→1→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -71,17 +82,6 @@
       ]
     },
     {
-      "team_name": "Team name",
-      "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "TheFactoryMustGrow",
       "group_rank": 1,
       "group_rank_7days": "1→1→1→1→1",
@@ -129,17 +129,6 @@
       "team_name": "최대난제",
       "group_rank": 2,
       "group_rank_7days": "2→2→3→2→2",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "BONOBONO",
-      "group_rank": 2,
-      "group_rank_7days": "1→1→1→1→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -218,6 +207,17 @@
       "team_name": "newsky",
       "group_rank": 2,
       "group_rank_7days": "2",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "Team name",
+      "group_rank": 2,
+      "group_rank_7days": "1→1→1→1→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

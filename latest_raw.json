@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08 14:00:00 UTC",
+  "generated_at": "2026-08-08 15:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "AmazeAmazeAmaze",
@@ -13,9 +13,9 @@
       ]
     },
     {
-      "team_name": "BONOBONO",
+      "team_name": "BoosilGamja",
       "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1",
+      "group_rank_7days": "1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -148,25 +148,25 @@
       ]
     },
     {
-      "team_name": "ChatOPT",
+      "team_name": "BONOBONO",
       "group_rank": 2,
-      "group_rank_7days": "1→2→2→2→2→2",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
-    {
-      "team_name": "DataNinja",
-      "group_rank": 2,
-      "group_rank_7days": "2→2→2→2→3→2",
+      "group_rank_7days": "1→1→1→1→1→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
       "affiliation": [
         "academic"
+      ]
+    },
+    {
+      "team_name": "ChatOPT",
+      "group_rank": 2,
+      "group_rank_7days": "2→2→2→2→2→2",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "company"
       ]
     },
     {
@@ -228,7 +228,7 @@
     {
       "team_name": "무근본바이브코더",
       "group_rank": 3,
-      "group_rank_7days": "2→2→3→3→3→3",
+      "group_rank_7days": "3→2→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -270,9 +270,9 @@
       ]
     },
     {
-      "team_name": "HermioneL",
+      "team_name": "DataNinja",
       "group_rank": 3,
-      "group_rank_7days": "3→3→3→4→4→3",
+      "group_rank_7days": "2→2→2→2→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -316,7 +316,7 @@
     {
       "team_name": "sungsigyung",
       "group_rank": 3,
-      "group_rank_7days": "3→4→3→3→3→3",
+      "group_rank_7days": "4→4→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -372,6 +372,17 @@
       "team_name": "hee",
       "group_rank": 4,
       "group_rank_7days": "4→4",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "HermioneL",
+      "group_rank": 4,
+      "group_rank_7days": "3→3→4→4→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08 08:00:00 UTC",
+  "generated_at": "2026-08-08 09:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "AmazeAmazeAmaze",
       "group_rank": 1,
-      "group_rank_7days": "1→2→2→2→1→1",
+      "group_rank_7days": "2→2→2→2→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -106,7 +106,7 @@
     {
       "team_name": "Trough",
       "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1",
+      "group_rank_7days": "1→1→1→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -139,7 +139,7 @@
     {
       "team_name": "최대난제",
       "group_rank": 2,
-      "group_rank_7days": "2→3→2→3→2→2",
+      "group_rank_7days": "3→3→3→3→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -161,7 +161,7 @@
     {
       "team_name": "DataNinja",
       "group_rank": 2,
-      "group_rank_7days": "1→2→2→2→2→2",
+      "group_rank_7days": "1→2→2→2→3→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -217,7 +217,7 @@
     {
       "team_name": "newsky",
       "group_rank": 2,
-      "group_rank_7days": "2",
+      "group_rank_7days": "2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -250,7 +250,7 @@
     {
       "team_name": "Baeptima",
       "group_rank": 3,
-      "group_rank_7days": "2→2→3→3→3",
+      "group_rank_7days": "2→2→2→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -261,7 +261,7 @@
     {
       "team_name": "Cook",
       "group_rank": 3,
-      "group_rank_7days": "2→3→2→2→2→3",
+      "group_rank_7days": "3→3→2→2→2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -283,7 +283,7 @@
     {
       "team_name": "Hortons",
       "group_rank": 3,
-      "group_rank_7days": "2→3→3→4→3→3",
+      "group_rank_7days": "2→3→4→4→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -294,7 +294,7 @@
     {
       "team_name": "IISL",
       "group_rank": 3,
-      "group_rank_7days": "4→2→3→3",
+      "group_rank_7days": "2→2→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -360,7 +360,7 @@
     {
       "team_name": "GrandOptima",
       "group_rank": 4,
-      "group_rank_7days": "2→3→3→3→3→4",
+      "group_rank_7days": "2→3→3→3→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

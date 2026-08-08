@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08 18:00:00 UTC",
+  "generated_at": "2026-08-08 19:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "AmazeAmazeAmaze",
@@ -128,7 +128,7 @@
     {
       "team_name": "인간계최강자",
       "group_rank": 2,
-      "group_rank_7days": "2→3→2→2→2→2",
+      "group_rank_7days": "3→3→2→2→2→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -228,7 +228,7 @@
     {
       "team_name": "무근본바이브코더",
       "group_rank": 3,
-      "group_rank_7days": "3→2→3→3→3→3",
+      "group_rank_7days": "2→2→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -261,7 +261,18 @@
     {
       "team_name": "DataNinja",
       "group_rank": 3,
-      "group_rank_7days": "2→2→2→2→2→3",
+      "group_rank_7days": "3→2→2→2→2→3",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
+      "team_name": "GrandOptima",
+      "group_rank": 3,
+      "group_rank_7days": "2→3→3→3→4→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -314,17 +325,6 @@
       ]
     },
     {
-      "team_name": "sungsigyung",
-      "group_rank": 3,
-      "group_rank_7days": "4→4→3→3→3→3",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "XYDT",
       "group_rank": 3,
       "group_rank_7days": "3→3→2→4→3",
@@ -350,17 +350,6 @@
       "team_name": "COIS",
       "group_rank": 4,
       "group_rank_7days": "3→3→4→4→4",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
-      "team_name": "GrandOptima",
-      "group_rank": 4,
-      "group_rank_7days": "3→3→3→3→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -421,6 +410,17 @@
       ],
       "affiliation": [
         "company"
+      ]
+    },
+    {
+      "team_name": "sungsigyung",
+      "group_rank": 4,
+      "group_rank_7days": "4→4→3→3→3→4",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
       ]
     }
   ]

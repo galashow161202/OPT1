@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-08-08 02:00:00 UTC",
+  "generated_at": "2026-08-08 04:00:00 UTC",
   "leaderboard": [
-    {
-      "team_name": "나무늘보",
-      "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "company"
-      ]
-    },
     {
       "team_name": "AmazeAmazeAmaze",
       "group_rank": 1,
@@ -82,6 +71,17 @@
       ]
     },
     {
+      "team_name": "Team name",
+      "group_rank": 1,
+      "group_rank_7days": "1→1→1→1→1",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "academic"
+      ]
+    },
+    {
       "team_name": "TheFactoryMustGrow",
       "group_rank": 1,
       "group_rank_7days": "1→1→1→1→1",
@@ -112,6 +112,17 @@
       ],
       "affiliation": [
         "academic"
+      ]
+    },
+    {
+      "team_name": "나무늘보",
+      "group_rank": 2,
+      "group_rank_7days": "1→1→1→1→2",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "company"
       ]
     },
     {
@@ -215,17 +226,6 @@
       ]
     },
     {
-      "team_name": "Team name",
-      "group_rank": 2,
-      "group_rank_7days": "1→1→1→1→2",
-      "nationality": [
-        "Korea, Republic of (대한민국)"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "무근본바이브코더",
       "group_rank": 3,
       "group_rank_7days": "2→3→3→3→3",
@@ -316,7 +316,7 @@
     {
       "team_name": "sungsigyung",
       "group_rank": 3,
-      "group_rank_7days": "2→4→3→3→3",
+      "group_rank_7days": "2→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -382,7 +382,7 @@
     {
       "team_name": "LiminalSpace",
       "group_rank": 4,
-      "group_rank_7days": "3→3→3→3→4",
+      "group_rank_7days": "3→4→3→3→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

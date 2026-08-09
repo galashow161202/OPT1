@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09 15:00:00 UTC",
+  "generated_at": "2026-08-09 16:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "AmazeAmazeAmaze",
@@ -26,7 +26,7 @@
     {
       "team_name": "Issyk Cool",
       "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1→1→1",
+      "group_rank_7days": "1→1→1→1→2→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)",
         "Kyrgyzstan"
@@ -50,7 +50,7 @@
     {
       "team_name": "OGiC",
       "group_rank": 1,
-      "group_rank_7days": "2→1→1→2→2→1→1",
+      "group_rank_7days": "2→1→1→2→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -261,7 +261,7 @@
     {
       "team_name": "DataNinja",
       "group_rank": 3,
-      "group_rank_7days": "2→2→2→2→3→3→3",
+      "group_rank_7days": "2→2→2→2→2→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -305,7 +305,7 @@
     {
       "team_name": "IISL",
       "group_rank": 3,
-      "group_rank_7days": "3→2→3→3→3",
+      "group_rank_7days": "4→3→2→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -338,7 +338,7 @@
     {
       "team_name": "야호",
       "group_rank": 4,
-      "group_rank_7days": "3→3→4→4→4→4→4",
+      "group_rank_7days": "3→4→4→4→4→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -349,7 +349,7 @@
     {
       "team_name": "COIS",
       "group_rank": 4,
-      "group_rank_7days": "3→3→3→4→4",
+      "group_rank_7days": "3→3→3→3→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -360,7 +360,7 @@
     {
       "team_name": "hee",
       "group_rank": 4,
-      "group_rank_7days": "4→4→4",
+      "group_rank_7days": "4→4→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12 09:00:00 UTC",
+  "generated_at": "2026-08-12 10:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "최적화야호",
@@ -72,7 +72,7 @@
     {
       "team_name": "OGiC",
       "group_rank": 1,
-      "group_rank_7days": "1→1→2→1→1→1→1→1",
+      "group_rank_7days": "1→2→2→1→1→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -161,7 +161,7 @@
     {
       "team_name": "ESI",
       "group_rank": 2,
-      "group_rank_7days": "2→2→2→2→2→2→2→2",
+      "group_rank_7days": "2→1→2→2→2→2→2→2",
       "nationality": [
         "France",
         "Luxembourg"
@@ -206,7 +206,7 @@
     {
       "team_name": "OPTLSL",
       "group_rank": 2,
-      "group_rank_7days": "3→3→4→3→4→3→3→2",
+      "group_rank_7days": "3→3→4→3→4→3→4→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -261,7 +261,7 @@
     {
       "team_name": "DataNinja",
       "group_rank": 3,
-      "group_rank_7days": "2→2→3→2→3→3→3→3",
+      "group_rank_7days": "2→2→3→2→3→3→2→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -272,7 +272,7 @@
     {
       "team_name": "GrandOptima",
       "group_rank": 3,
-      "group_rank_7days": "3→3→4→4→3→3→4→3",
+      "group_rank_7days": "3→3→3→4→3→3→4→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -305,7 +305,7 @@
     {
       "team_name": "Jyang",
       "group_rank": 3,
-      "group_rank_7days": "2→2→2→2→2→2→2→3",
+      "group_rank_7days": "2→2→2→2→2→2→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -360,7 +360,7 @@
     {
       "team_name": "COIS",
       "group_rank": 4,
-      "group_rank_7days": "3→4→3→4→4→4→3→4",
+      "group_rank_7days": "3→3→3→4→4→4→3→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -426,7 +426,7 @@
     {
       "team_name": "XYDT",
       "group_rank": 4,
-      "group_rank_7days": "3→3→3→3→3→3→3→4",
+      "group_rank_7days": "3→2→4→3→3→3→3→4",
       "nationality": [
         "China"
       ],

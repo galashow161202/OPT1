@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13 14:00:00 UTC",
+  "generated_at": "2026-08-13 15:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "나무늘보",
       "group_rank": 1,
-      "group_rank_7days": "1→1→2→2→2→2→2→1",
+      "group_rank_7days": "1→1→2→2→2→1→2→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -37,7 +37,7 @@
     {
       "team_name": "BONOBONO",
       "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1→1→1→1",
+      "group_rank_7days": "1→1→2→2→1→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -48,7 +48,7 @@
     {
       "team_name": "BoosilGamja",
       "group_rank": 1,
-      "group_rank_7days": "4→2→1→1→1",
+      "group_rank_7days": "1→1→2→1→1→1",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -160,7 +160,7 @@
     {
       "team_name": "DataNinja",
       "group_rank": 2,
-      "group_rank_7days": "2→3→2→3→3→2→3→2",
+      "group_rank_7days": "2→3→3→3→3→2→3→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -238,7 +238,7 @@
     {
       "team_name": "바나나맛우유",
       "group_rank": 3,
-      "group_rank_7days": "3→3→3→3→3→4→4→3",
+      "group_rank_7days": "3→3→3→3→4→4→4→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -249,7 +249,7 @@
     {
       "team_name": "야호",
       "group_rank": 3,
-      "group_rank_7days": "4→4→4→4→4→3→3→3",
+      "group_rank_7days": "4→4→4→4→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -282,7 +282,7 @@
     {
       "team_name": "HermioneL",
       "group_rank": 3,
-      "group_rank_7days": "4→4→3→3→3→3→3→3",
+      "group_rank_7days": "4→4→4→3→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -315,7 +315,7 @@
     {
       "team_name": "MSGA",
       "group_rank": 3,
-      "group_rank_7days": "2→2→2→2→3→3→3→3",
+      "group_rank_7days": "2→2→2→3→3→3→3→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -392,7 +392,7 @@
     {
       "team_name": "OGiC",
       "group_rank": 4,
-      "group_rank_7days": "2→2→1→1→1→1→1→4",
+      "group_rank_7days": "2→2→1→1→1→2→1→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -415,7 +415,7 @@
     {
       "team_name": "Qampo",
       "group_rank": 4,
-      "group_rank_7days": "3→3→4→3→4→4→4→4",
+      "group_rank_7days": "3→3→4→4→4→4→4→4",
       "nationality": [
         "Denmark"
       ],

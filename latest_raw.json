@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12 23:00:00 UTC",
+  "generated_at": "2026-08-13 01:00:00 UTC",
   "leaderboard": [
     {
       "team_name": "최적화야호",
@@ -70,14 +70,13 @@
       ]
     },
     {
-      "team_name": "OGiC",
+      "team_name": "OPTALL",
       "group_rank": 1,
-      "group_rank_7days": "1→1→1→1→1→1→1→1",
+      "group_rank_7days": "1→1→1→1→1→1→2→1",
       "nationality": [
-        "Korea, Republic of (대한민국)"
+        "China"
       ],
       "affiliation": [
-        "company",
         "academic"
       ]
     },
@@ -204,20 +203,9 @@
       ]
     },
     {
-      "team_name": "OPTALL",
-      "group_rank": 2,
-      "group_rank_7days": "1→1→1→1→1→1→2→2",
-      "nationality": [
-        "China"
-      ],
-      "affiliation": [
-        "academic"
-      ]
-    },
-    {
       "team_name": "OPTLSL",
       "group_rank": 2,
-      "group_rank_7days": "3→3→3→3→4→3→3→2",
+      "group_rank_7days": "3→4→3→3→3→3→3→2",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -250,7 +238,7 @@
     {
       "team_name": "야호",
       "group_rank": 3,
-      "group_rank_7days": "4→4→4→4→4→3→3→3",
+      "group_rank_7days": "4→4→4→4→3→3→4→3",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -360,7 +348,7 @@
     {
       "team_name": "COIS",
       "group_rank": 4,
-      "group_rank_7days": "3→4→4→4→4→4→4→4",
+      "group_rank_7days": "3→4→4→4→4→4→3→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -382,7 +370,7 @@
     {
       "team_name": "Hortons",
       "group_rank": 4,
-      "group_rank_7days": "4→3→3→3→3→4→4→4",
+      "group_rank_7days": "4→3→3→3→4→4→4→4",
       "nationality": [
         "Korea, Republic of (대한민국)"
       ],
@@ -413,9 +401,21 @@
       ]
     },
     {
+      "team_name": "OGiC",
+      "group_rank": 4,
+      "group_rank_7days": "1→1→1→1→1→1→1→4",
+      "nationality": [
+        "Korea, Republic of (대한민국)"
+      ],
+      "affiliation": [
+        "company",
+        "academic"
+      ]
+    },
+    {
       "team_name": "Qampo",
       "group_rank": 4,
-      "group_rank_7days": "4→4→4→3→4→4→4",
+      "group_rank_7days": "3→4→4→4→4→4→4",
       "nationality": [
         "Denmark"
       ],
